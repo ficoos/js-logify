@@ -11,7 +11,7 @@ logify.min.js: logify.js
 	 http://closure-compiler.appspot.com/compile \
 	  > $@
 logify.min.js.escaped: logify.min.js
-	sed "s:(:\&#40;:g" $< | sed 's:):\&#41;:g' | sed 's:\&:\\\&:g' > \
+	cat $< | sed 's:\&:\\\&:g' > \
 		$@
 
 README.md: README.md.in logify.min.js.escaped

@@ -4,4 +4,9 @@ JS-Logify is a [bookmarklet](http://en.wikipedia.org/wiki/Bookmarklet) to conver
 # Installation
 Just drag the link below to you bookmark bar.
 
-[logify](javascript:@JS@)
+1. Create a new bookmark
+2. Name it 'logify'
+3. Put this as the link
+```javascrip
+javascript:@JS@
+```
