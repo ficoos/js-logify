@@ -7,6 +7,6 @@ Just drag the link below to you bookmark bar.
 1. Create a new bookmark
 2. Name it 'logify'
 3. Put this as the link
-```javascrip
+```javascript
 javascript:@JS@
 ```
