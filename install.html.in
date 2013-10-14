@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="install-js-logify">Install JS-Logify</h1>
+<p>Drag the link below to your bookmark bar</p>
+<p><a href='javascript:@JS@'>Logify</a></p>
+<p>Thats it your done!</p>
+</body>
+</html>
