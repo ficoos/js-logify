@@ -1,3 +1,4 @@
 *.swp
 *~
 logify.min.js
+logify.min.js.escaped
