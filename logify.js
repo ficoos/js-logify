@@ -1,4 +1,7 @@
 (function () {
+    var ltr = function(s) {
+        return "\u200e" + s + "\u200e";
+    };
     /* Order is important, ambiguity is resolved by precedence */
     var symbol_map = [
         [(/\<-\>/g), "↔"],
@@ -24,12 +27,12 @@
     var selectedText = activeElement.value.substring(selectionStart,
                                                      selectionEnd);
 
-    var resultText = selectedText;
+    var resultText = ltr(selectedText);
     for (var i = 0; i < symbol_map.length; i++) {
         var mapping = symbol_map[i];
         var asciiSymbol = mapping[0];
         var unicodeSymbol = mapping[1];
-        resultText = resultText.replace(asciiSymbol, unicodeSymbol);
+        resultText = resultText.replace(asciiSymbol, ltr(unicodeSymbol));
     }
 
     activeElement.value = prefix + resultText + suffix;

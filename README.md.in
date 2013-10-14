@@ -1,0 +1,9 @@
+# JS-Logify
+JS-Logify is a [bookmarklet](http://en.wikipedia.org/wiki/Bookmarklet) to
+convert logic expression in _similar_ [ASCII](https://en.wikipedia.org/wiki/Ascii)
+formatting to proper unicode logic runes.
+
+# Installation
+Just drag the link below to you bookmark bar.
+
+[logify](javascript:@JS@)
