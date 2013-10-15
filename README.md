@@ -26,5 +26,5 @@ Putting the ASCII charecters on the left will produce the logic symbol on the ri
 * V = ‎∨‎
 * ^,& = ‎∧‎
 * -> = ‎→‎
-*<->,<=> = ‎↔‎
+* <->,<=> = ‎↔‎
 * = = ‎≡‎
