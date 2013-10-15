@@ -11,6 +11,7 @@ Write the expression in semi-similar ascii. Select the expression using the mous
 
 If you are mixing expression with RTL languages (like Hebrew and Arabic) you might find that it's hard to write the expression correctly because of alignment issues.
 To solve this:
+
 1. Put () where you intend to write you expression.
 2. Select the "()" and Logify it
 3. Start writing inside the paranthesis.
