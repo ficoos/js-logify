@@ -27,14 +27,14 @@
     var selectedText = activeElement.value.substring(selectionStart,
                                                      selectionEnd);
 
-    var resultText = ltr(selectedText);
+    var resultText = selectedText;
     for (var i = 0; i < symbol_map.length; i++) {
         var mapping = symbol_map[i];
         var asciiSymbol = mapping[0];
         var unicodeSymbol = mapping[1];
-        resultText = resultText.replace(asciiSymbol, ltr(unicodeSymbol));
+        resultText = resultText.replace(asciiSymbol, unicodeSymbol);
     }
 
-    activeElement.value = prefix + resultText + suffix;
+    activeElement.value = prefix + ltr(resultText) + suffix;
 })();
 
